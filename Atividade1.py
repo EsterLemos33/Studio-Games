@@ -1,4 +1,4 @@
-print"eu sei fazer print assim"
+print("eu sei fazer print assim")
 print("e tambem sei fazer assim")
 
 nome = 'Ester Alves Lemos'

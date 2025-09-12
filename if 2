@@ -1,0 +1,8 @@
+print("Inimigo: Voce nunca ira me vencer!")
+print("Arqueiro comeca a atirar...")
+flechas = 100
+vida = 65
+if flechas >= vida:
+    print("Arqueiro: Voce perdeu!")
+if flechas < vida:
+    print("Inimigo: Ainda nao conseguiu me derrotar.")

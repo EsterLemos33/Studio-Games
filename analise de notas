@@ -1,0 +1,15 @@
+notastr = input("Quanto ficou sua media?")
+nota = int(notastr)
+if nota>=7:
+    print("Voce foi aprovado por media")
+else:
+    if nota<4:
+        print("Voce foi reprovado")
+    else:
+        print("Faca a recuperacao")
+        recuperacaosrt = input("Quantas questoes voce acertou na recuperacao?")
+        recuperacao = int(recuperacaosrt)
+        if recuperacao>=5:
+            print("Voce recuperou sua nota e foi aprovado por conceito B")
+        else:
+            print("Voce nao recuperou sua nota e foi reprovado")

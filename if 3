@@ -1,0 +1,9 @@
+chovendo = False
+nublado = False
+if chovendo:
+    print("Levar guarda-chuva")
+else:
+    if nublado:
+        print("Leve o guarda-chuva, pode chover")
+    else:
+        print("Nao precisa levar o guarda-chuva")

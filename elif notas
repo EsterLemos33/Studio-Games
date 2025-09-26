@@ -1,0 +1,12 @@
+primeiranota = float(input("Digite sua primeira nota:"))
+segundanota = float(input("Digite sua segunda nota:"))
+terceiranota = float(input("Digite sua terceira nota:"))
+media = (primeiranota + segundanota + terceiranota)/3
+if 0 < media < 5:
+    print("Voce tirou " + str(media) + ", e foi reprovado.")
+elif 5 < media < 10:
+    print("Voce tirou " + str(media) + ", e foi aprovado.")
+elif media == 10:
+    print("Voce tirou " + str(media) + ", uma nota perfeita, e foi aprovado com excelencia.")
+else:
+    print("Digite uma nota n, tal que 0 <= n <= 10")

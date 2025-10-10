@@ -1,9 +1,9 @@
 primeiranota = float(input("Digite sua primeira nota:"))
-if 0 < primeiranota < 10:
+if 0 <= primeiranota <= 10:
     segundanota = float(input("Digite sua segunda nota:"))
-    if 0 < segundanota < 10:
+    if 0 <= segundanota <= 10:
         terceiranota = float(input("Digite sua terceira nota:"))
-        if 0 < terceiranota < 10:
+        if 0 <= terceiranota <= 10:
             media = (primeiranota + segundanota + terceiranota) / 3
             if media < 5:
                 print(f"Voce tirou {media}, e foi reprovado.")
